@@ -1,0 +1,41 @@
+User interface,
+Hoe maken we een userinterface
+Canvas,
+	-Er mogen meerdere canvasen in de wereld zijn. Maar er moet minimaal 1 canvas zijn
+	-Het canvas heeft verschillende render modes: Screenspace - Overlay, Default.
+	-Screenspace - Camera, dit zorgt ervoor dat bepaalde settings van de camera meegenomen worden,
+		zoals b.v. Vignetting
+		Door nu het panel te draaien wordt de ui perspectivisch gedraaid. Mooi voor b.v. een HUD
+	-World space, zorgt ervoor dat een UI element in world space word geplaatst.
+	Volgorde van de buttons zijn bottom first. Elementen die onderaan staan worden eerst gerenderd.
+	
+Rect Transform
+	Width en height resized de breedte een hoogte van het element, er wordt dus niet gescaled. 
+	Door height een negative waarde te geven wordt het element onzichtbaar
+	Het Resizen van de rect transform past niet de font groote aan.
+	Scale daarintegen streched de fonts size en texture. Hiermee is het ook mogelijk om 
+	
+	Anchor points laten zien,
+	Verschillende plekken waar de anchorpoints kunnen zitten en hoe de button daarop reageerd.
+	Preview laten zien
+	Anchor presets met Shift en ALT opties
+	
+	
+UI Botton
+	Transition
+	-Color tint is default.
+		De kleuren er onder kunnen gebruikt worden om visueel duidelijk te maken wat er gebeurt bij een mouse over of als je er op druk
+	-SpriteSwap
+		verschillende sprites/images kunnen hier gebruikt worden. 
+	-Animatie
+		De meest veelzijdige van alle opties. Hier kan de complete button geanimeerd worden.
+		hiervoor dient wel een animation component aan de botton te worden toegevoegd
+		Generate Animations 
+		En we veranderen de width on highlight
+		Verder zorgen we ervoor dat we de sphere van material kunnen laten veranderen
+		Dit doen we door 3 materials aan te maken. 
+		
+
+	
+	
+	
